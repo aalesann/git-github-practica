@@ -11,32 +11,45 @@
 </head>
 
 <body>
-    <div class="container">
+    <div class="container mt-5">
+        <div class="row">
+            <div class="col">
+                <h1>
+                    Aprendiendo Git & GitHub
+                </h1>
+            </div>
+        </div>
         <!-- Columna 1 - Formulario para agregar tareas -->
-        <div class="row d-flex flex-row mt-5 g-3 justify-content-evenly">
-            <div class="col-md-4">
+        <div class="row d-flex flex-row g-4 mt-1 justify-content-evenly">
+            <div class="col-md-4 border rounded p-2">
                 <form action="#">
                     <div class="mb-3">
-                        <label for="exampleFormControlInput1" class="form-label">Email address</label>
-                        <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+                        <label for="exampleFormControlInput1" class="form-label">Título:</label>
+                        <input type="email" class="form-control" id="exampleFormControlInput1">
                     </div>
                     <div class="mb-3">
-                        <label for="exampleFormControlTextarea1" class="form-label">Example textarea</label>
+                        <label for="exampleFormControlTextarea1" class="form-label">Descripción:</label>
                         <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
                     </div>
+                    <button type="button" class="btn btn-primary">
+                        Guardar
+                    </button>
+                    <button type="button" class="btn btn-secondary">
+                        Limpiar
+                    </button>
                 </form>
             </div>
-    
+
             <!-- Columna 2 - Lista de tareas agregadas -->
             <div class="col">
                 <div class="card">
                     <div class="card-body">
                         <ul class="list-group">
-                            <li class="list-group-item">An item</li>
-                            <li class="list-group-item">A second item</li>
-                            <li class="list-group-item">A third item</li>
-                            <li class="list-group-item">A fourth item</li>
-                            <li class="list-group-item">And a fifth one</li>
+                            <li class="list-group-item">Hacer las compras en el supermercado: <span> <a href="#">ver
+                                        más...</a></span></li>
+                            <li class="list-group-item">Estudiar para el examen: <span> <a href="#">ver
+                                        más...</a></span></li>
+                            <li class="list-group-item">Temas pendientes: <span> <a href="#">ver más...</a></span></li>
                         </ul>
                     </div>
                 </div>
